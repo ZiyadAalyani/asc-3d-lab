@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "user_student_demo_01",
+      "email": "student@asc.edu",
+      "username": "student",
+      "passwordHash": "e6988849b2521f37e4c63740d58852da0e25413009772c68612ca43015fbe29f:a99d428fa693951f00a5dbeee8b105d1",
+      "fullName": "Student Researcher",
+      "role": "student",
+      "rollNumber": "B001",
+      "avatarUrl": null,
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "user_instructor_demo_01",
+      "email": "instructor@asc.edu",
+      "username": "instructor",
+      "passwordHash": "8b7f7300c3d9804e760be8507b69c4c59a35e36ffcc5ebfae72dc4bbd5140ecb:99a8428fa693951f00a5dbeee8b105e4",
+      "fullName": "Prof. S. K. Tiwari (SKT Sir)",
+      "role": "instructor",
+      "rollNumber": "FAC-PHY-01",
+      "avatarUrl": null,
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z"
+    }
+  ],
+  "circuits": [],
+  "labReports": [],
+  "chatMessages": [
+    {
+      "sessionId": "sess_1794334427915",
+      "role": "user",
+      "content": "hi",
+      "language": "en",
+      "id": 1,
+      "createdAt": "2026-11-10T18:13:47.932Z"
+    },
+    {
+      "sessionId": "sess_1794334427915",
+      "role": "assistant",
+      "content": "Wassup Ziyad! 🚀 I'm **SKT Sir**, your Technical Physics Lab AI Instructor.\n\nReady to crush any derivation, apparatus calculation, or observation table in our High-Trust Technical 3D lab! Here are the core rigs we can dive into:\n\n1. 🎵 **Resonance Tube (Air Column):** Construction, standing longitudinal waves, speed of sound $v = 2f(L_2 - L_1)$, and end correction $e = (L_2 - 3L_1)/2 \\approx 0.3d$.\n2. 📏 **Vernier Caliper:** Least Count ($0.01\\text{ cm}$), zero error correction, internal/external metrology.\n3. 🔩 **Micrometer Screw Gauge:** Pitch ($1.0\\text{ mm}$), circular scale ($0.01\\text{ mm}$), ratchet clutch stop.\n4. ⚡ **Ohm's Law & Resistance:** $V = IR$, series ammeter, shunt voltmeter, linear slope determination.\n5. 🌈 **Prism Dispersion:** Minimum deviation angle $D_m$ and Cauchy's refractive dispersion.\n6. 💻 **8085 Microprocessor:** Demultiplexing $AD_0-AD_7$ via ALE, timing states, 64KB memory.\n\nDrop any formula, test data, or viva question and let's break it down! ⚡",
+      "language": "en",
+      "id": 2,
+      "createdAt": "2026-11-10T18:13:47.945Z"
+    },
+    {
+      "sessionId": "sess_1794334450397",
+      "role": "user",
+      "content": "explain me vernier calliper",
+      "language": "en",
+      "id": 3,
+      "createdAt": "2026-11-10T18:14:10.401Z"
+    },
+    {
+      "sessionId": "sess_1794334450397",
+      "role": "assistant",
+      "content": "### 📏 Vernier Caliper Precision Measurement & Error Correction\n\n**1. Least Count (LC) Derivation:**\n$$\\text{LC} = 1\\text{ MSD} - 1\\text{ VSD} = \\frac{1\\text{ MSD}}{\\text{Total Vernier Divisions}} = \\frac{1\\text{ mm}}{10} = \\mathbf{0.01\\text{ cm} = 0.1\\text{ mm}}$$\n\n**2. Total Reading Formula:**\n$$\\mathbf{\\text{TR} = \\text{MSR} + (\\text{VSC} \\times \\text{LC}) - (\\pm \\text{Zero Error})}$$\n\n**3. Zero Error Correction:**\n- **Positive Zero Error:** Vernier 0 mark is to the right of Main 0 $\\implies$ Subtract error.\n- **Negative Zero Error:** Vernier 0 mark is to the left of Main 0 $\\implies$ Add $|\\text{error}|$.",
+      "language": "en",
+      "id": 4,
+      "createdAt": "2026-11-10T18:14:10.410Z"
+    }
+  ],
+  "quizResults": []
+}
